@@ -1,4 +1,5 @@
 import Calender from "@/components/Calender";
+import JoinRoom from "@/components/JoinRoom";
 import Navbar from "@/components/Navbar";
 import React from "react";
 
@@ -8,6 +9,8 @@ const page = () => {
       <Navbar />
 
       <Calender />
+
+      <JoinRoom />
     </div>
   );
 };

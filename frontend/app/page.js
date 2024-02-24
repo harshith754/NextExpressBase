@@ -4,15 +4,7 @@ import Navbar from "@/components/Navbar";
 import React from "react";
 
 const page = () => {
-  return (
-    <div className="flex flex-col items-center bg-[#F9F9E0]">
-      <Navbar />
-
-      <Calender />
-
-      <JoinRoom />
-    </div>
-  );
+  return <div className="flex flex-col items-center bg-[#F9F9E0]">Hello</div>;
 };
 
 export default page;
